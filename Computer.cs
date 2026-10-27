@@ -25,10 +25,10 @@ namespace Cross_Zero
             int countIndivid = 100;//кол-во особей в поколении
             int countGeneration = 100;//кол-во поколений
             List<int>scelet=new List<int>() {9,18,1};//строение МСП
-            //computer = Genetic_Algorithm.GA(scelet, countIndivid, countGeneration, ref Form1.currentProgressLearning);
-            var epb = new EPB();
+            computer = Genetic_Algorithm.GA(scelet, countIndivid, countGeneration, ref Form1.currentProgressLearning);
+            /*var epb = new EPB();
             computer = epb.network;
-            Form1.currentProgressLearning = 100;
+            Form1.currentProgressLearning = 100;*/
             IsReady =true;
         }
 
